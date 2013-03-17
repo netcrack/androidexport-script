@@ -5,11 +5,11 @@ Shell script to export Inkscape svg files to android's multiple densities png fo
 ________
 ###Usage: 
 
-androidexport &lt;svg file&gt; &lt;prefix&gt; &lt;mdpi width&gt; &lt;mdpi height&gt;
+androidexport.sh &lt;svg file&gt; &lt;prefix&gt; &lt;mdpi width&gt; &lt;mdpi height&gt;
 
 ###Example: 
 
-androidexport info.svg ic_title 28 28
+androidexport.sh info.svg ic_title 28 28
 
 This creates the following png files
 
