@@ -1,6 +1,6 @@
 if [ ! $1 ] || [ ! $2 ] || [ ! $3 ] || [ ! $4 ]
 then
-  echo "Usage: $0 <svg File> <Prefix> <MDPI Width> <MDPI Height>"
+  echo "Usage Help: $0 <svg File> <Prefix> <MDPI Width> <MDPI Height>"
 elif [ ${1#*.} != "svg" ]
 then
         echo "Provide only svg file"
