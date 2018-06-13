@@ -18,4 +18,4 @@ This creates the following png files
 + drawable-xhdpi/ic_title_info.png
 + drawable-xxdpi/ic_title_info.png
 
-System should have Inkscape installed.
+System should have Inkscape installed  .
