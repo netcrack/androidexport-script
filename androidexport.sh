@@ -14,8 +14,8 @@ else
         baseWidth=$(bc -l <<< "$3 / 4")
         baseHeight=$(bc -l <<< "$4 / 4")
         filename=$2"_"${1%.*}".png"
-        ratios=(4 6 8 12)
-        folders=(mdpi hdpi xhdpi xxhdpi)
+        ratios=(4 6 8 12 16)
+        folders=(mdpi hdpi xhdpi xxhdpi xxxhdpi)
         index=0
         for ratio in ${ratios[@]}
         do
